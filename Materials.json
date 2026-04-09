@@ -1,0 +1,46 @@
+{
+  "base_materials": {
+    "Aluminio 2014-0": {"cp": 921.6},
+    "Aluminio 2014-T4": {"cp": 921.6},
+    "Aluminio 2014-T6": {"cp": 921.6},
+    "Aluminio 2017-0": {"cp": 921.6},
+    "Aluminio 2024-T4": {"cp": 921.6},
+    "Aluminio 6061-T4": {"cp": 961.2},
+    "Aluminio 6061-T6": {"cp": 961.2},
+    "Aluminio 7075-T6": {"cp": 961.2},
+    "Aluminio 7178-T6": {"cp": 961.2},
+    "Berilio": {"cp": 1882.8},
+    "Cobre C10200": {"cp": 385.2},
+    "Acero Inoxidable 304": {"cp": 504},
+    "Titanio Ti-6Al-4V": {"cp": 572.4},
+    "Magnesio AZ31B-F,A": {"cp": 1047.6},
+    "Molibdeno": {"cp": 273.6}
+  },
+  "surfaces_finishes": {
+    "Espejos de cuarzo (difusos)": {"alpha": 0.11, "epsilon": 0.80},
+    "S13G-LO":{"alpha": 0.22,"epsilon": 0.85},
+    "PCBZ":{"alpha": 0.2,"epsilon": 0.87},
+    "Z93":{"alpha": 0.18,"epsilon": 0.92},
+    "ZOT":{"alpha": 0.19,"epsilon": 0.91},
+    "Chemglaze A276":{"alpha": 0.25,"epsilon": 0.88},
+    "Chemglaze Z306":{"alpha": 0.95,"epsilon": 0.89},
+    "3M Black Velvet":{"alpha": 0.97,"epsilon": 0.84},
+    "Aluminio depositado por vapor(VDA)":{"alpha": 0.13,"epsilon": 0.04},
+    "Aluminio":{"alpha": 0.13,"epsilon": 0.6},
+    "Oro depositado por vapor":{"alpha": 0.25,"epsilon": 0.03},
+    "Cinta VDA de SiOx":{"alpha": 0.14,"epsilon": 0.12},
+    "FSS-99":{"alpha": 0.03,"epsilon": 0.02},
+    "Tela Beta":{"alpha": 0.32,"epsilon": 0.86},
+    "Astro Quartz":{"alpha": 0.22,"epsilon": 0.80},
+    "TiNOX":{"alpha": 0.95,"epsilon": 0.05},
+    "Maxorb":{"alpha": 0.90,"epsilon": 0.10}
+  },
+  "cubesat_size": {
+    "1U": {"m_total": 2, "dims":[0.1, 0.1, 0.1], "t_wall":0.02},
+    "1.5U": {"m_total": 3, "dims":[0.1, 0.1, 0.15], "t_wall":0.02},
+    "2U": {"m_total": 4, "dims":[0.1, 0.1, 0.2], "t_wall":0.02},
+    "3U": {"m_total": 6, "dims":[0.1, 0.1, 0.3], "t_wall":0.02},
+    "6U": {"m_total": 12, "dims":[0.1, 0.2, 0.3], "t_wall":0.02},
+    "12U": {"m_total": 24, "dims":[0.2, 0.2, 0.3], "t_wall":0.02}
+  }
+}
